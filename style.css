@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff; 
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 auto;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+    border-radius: 20px;
+    background-color: #53baff;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+section {
+    background: rgb(0, 0, 0);
+    margin: 100px auto;
+    padding: 20px;
+
+    max-width: 800px;
+}
+
+h2 {
+    color: #53baff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #53baff;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    gap: 20px;
+}
+
+.section-image {
+    max-width: 250px;
+    border-radius: 8px;
+    margin-left: 20px;
+    width: auto;
+}
+
+.text-content {
+    flex: 1;
+    margin-right: 20px;
+    text-align: left;
+    margin: 0 auto;
+
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.project-container a {
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    margin: 10px;
+}
+
+.project-image {
+    max-width: 300px;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    height: 200px;
+    width: 200px;
+}
+
+.project-container a:hover .project-image {
+    transform: scale(1.05);
+}
